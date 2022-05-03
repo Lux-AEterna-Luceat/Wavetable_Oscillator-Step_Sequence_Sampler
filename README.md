@@ -73,4 +73,4 @@ sSSampler.playKeys('Kick', 'Snare') #: 这个时候同时播放 'Kick' 和 'Snar
 
 > default-song.py
 
-1. **打开这个 python 脚本会播放一段《おてんば恋娘》。**
+1. 打开这个 python 脚本会播放一段《おてんば恋娘》。
