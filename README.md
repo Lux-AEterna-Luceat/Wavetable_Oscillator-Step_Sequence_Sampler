@@ -26,7 +26,7 @@ wtOsc.init('Shapes/HQ/HQ_Saw.wav', 120, [4,4])
 
 **Example:**
 ```
-wtOsc.playKey('C5', 0.5, 4) # 键名： 'C5' ，音量： 0.5 ，步长： 4 （相当于一个四分音符）。
+wtOsc.playKey('C5', 0.5, 4) #: 键名： 'C5' ，音量： 0.5 ，步长： 4 （相当于一个四分音符）。
 ```
 
 3. delay(steps) 函数：
