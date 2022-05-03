@@ -7,9 +7,11 @@
 
 > 使用 pyaudio 模块、 struct 模块、 numpy 模块、 time 模块。
 
+#### 初始化： （在使用该模块前必须初始化）
+
 1. init(sample, tempo, division) 函数：
 
-- sample 是你想要读入的存储一个周期的wav文件的路径；
+- sample 是你想要读入的存储一个周期的 wav 文件的路径；
 - tempo(bpm) 是你设置的曲速，未来计算步长会有所帮助；
 - division 是一个数组，以 \[beats, steps\] 的形式输入，未来计算步长会有所帮助。
 
@@ -40,6 +42,8 @@ wtOsc.playKey('C5', 0.5, 4) #: 键名： 'C5' ，音量： 0.5 ，步长： 4 �
 ### sSSampler 模块： （ Step Sequence Sampler ）
 
 > 使用 pygame 模块、 time 模块。
+
+#### 初始化： （在使用该模块前必须初始化）
 
 1. init(path, tempo, division) 函数：
 
