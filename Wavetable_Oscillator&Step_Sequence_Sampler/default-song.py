@@ -6,9 +6,9 @@ from multiprocessing import Process
 
 
 # Instruments:
-import Default.lead		as lead
-import Default.bass		as bass
-import Default.drums	as drums
+import default_song.lead	as lead
+import default_song.bass	as bass
+import default_song.drums	as drums
 
 
 def play():
