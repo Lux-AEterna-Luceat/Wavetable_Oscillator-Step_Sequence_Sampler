@@ -7,7 +7,7 @@
 
 > 使用 pyaudio 模块、 struct 模块、 numpy 模块、 time 模块。
 
-1. init(sample, tempo, division) 函数：
+1. **init(sample, tempo, division) 函数：**
 
 **初始化： （在使用该模块前必须初始化）**
 
@@ -20,7 +20,7 @@
 wtOsc.init('Shapes/HQ/HQ_Saw.wav', 120, [4, 4])
 ```
 
-2. playKey(key, volume, steps) 函数：
+2. **playKey(key, volume, steps) 函数：**
 
 - key 是键名；
 - volume 是音量，通常设置为 0 ~ 1 之间的浮点数；
@@ -31,7 +31,7 @@ wtOsc.init('Shapes/HQ/HQ_Saw.wav', 120, [4, 4])
 wtOsc.playKey('C5', 0.5, 4) #: 键名： 'C5' ，音量： 0.5 ，步长： 4 （相当于一个四分音符）。
 ```
 
-3. delay(steps) 函数：
+3. **delay(steps) 函数：**
 
 - 原本这个函数是为了代替休止符使用的。
 - 但是这个函数目前还有点 Bug ，修复中。
@@ -43,7 +43,7 @@ wtOsc.playKey('C5', 0.5, 4) #: 键名： 'C5' ，音量： 0.5 ，步长： 4 �
 
 > 使用 pygame 模块、 time 模块。
 
-1. init(path, tempo, division) 函数：
+1. **init(path, tempo, division) 函数：**
 
 **初始化： （在使用该模块前必须初始化）**
 
@@ -55,7 +55,7 @@ wtOsc.playKey('C5', 0.5, 4) #: 键名： 'C5' ，音量： 0.5 ，步长： 4 �
 sSSampler.init('Samples/Drums/default', 120, [4,4])
 ```
 
-2. playKeys(\*k) 函数：
+2. **playKeys(\*k) 函数：**
 
 - 输入的是一个你想在当前步数播放的采样的序列。
 
@@ -64,7 +64,7 @@ sSSampler.init('Samples/Drums/default', 120, [4,4])
 sSSampler.playKeys('Kick', 'Snare') #: 这个时候同时播放 'Kick' 和 'Snare' 的采样。
 ```
 
-3. releaseKeys() 函数：
+3. **releaseKeys() 函数：**
 
 - 此时停止播放所有采样。
 
@@ -73,4 +73,4 @@ sSSampler.playKeys('Kick', 'Snare') #: 这个时候同时播放 'Kick' 和 'Snar
 
 > default-song.py
 
-1. 打开这个 python 脚本会播放一段《おてんば恋娘》。
+- 打开这个 python 脚本会播放一段《おてんば恋娘》。
