@@ -9,11 +9,9 @@
 
 1. init(sample, tempo, division) 函数：
 
-sample 是你想要读入的存储一个周期的wav文件的路径；
-
-tempo(bpm) 是你设置的曲速，未来计算步长会有所帮助；
-
-division 是一个数组，以 \[beats, steps\] 的形式输入，未来计算步长会有所帮助。
+> sample 是你想要读入的存储一个周期的wav文件的路径；
+> tempo(bpm) 是你设置的曲速，未来计算步长会有所帮助；
+> division 是一个数组，以 \[beats, steps\] 的形式输入，未来计算步长会有所帮助。
 
 **Example:**
 ```
@@ -38,6 +36,9 @@ wtOsc.playKey('C5', 0.5, 4) # 键名： 'C5' ，音量： 0.5 ，步长： 4 （
 原本这个函数是为了代替休止符使用的。
 
 但是这个函数目前还有点 Bug ，修复中。
+
+
+## Step Sequence Sampler
 
 ### sSSampler 模块： （ Step Sequence Sampler ）
 
@@ -69,8 +70,9 @@ sSSampler.playKeys('Kick', 'Snare')
 
 此时停止播放所有采样。
 
+
 #### 内置的歌曲：
 
->default-song.py
+> default-song.py
 
 打开这个 python 脚本会播放一段《おてんば恋娘》。
