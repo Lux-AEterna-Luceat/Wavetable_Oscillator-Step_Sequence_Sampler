@@ -15,7 +15,7 @@
 
 **Example:**
 ```
-wtOsc.init('Shapes/HQ/HQ_Saw.wav', 120, [4,4])
+wtOsc.init('Shapes/HQ/HQ_Saw.wav', 120, [4, 4])
 ```
 
 2. playKey(key, volume, steps) 函数：
@@ -65,7 +65,7 @@ sSSampler.playKeys('Kick', 'Snare') #: 这个时候同时播放 'Kick' 和 'Snar
 - 此时停止播放所有采样。
 
 
-#### 内置的歌曲：
+## 内置的歌曲：
 
 > default-song.py
 
