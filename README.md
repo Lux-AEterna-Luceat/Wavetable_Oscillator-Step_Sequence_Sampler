@@ -57,10 +57,8 @@ sSSampler.init('Samples/Drums/default', 120, [4,4])
 
 **Example:**
 ```
-sSSampler.playKeys('Kick', 'Snare')
+sSSampler.playKeys('Kick', 'Snare') #: 这个时候同时播放 'Kick' 和 'Snare' 的采样。
 ```
-
-- 这个时候同时播放 'Kick' 和 'Snare' 的采样。
 
 3. releaseKeys() 函数：
 
@@ -71,4 +69,4 @@ sSSampler.playKeys('Kick', 'Snare')
 
 > default-song.py
 
-打开这个 python 脚本会播放一段《おてんば恋娘》。
+1. 打开这个 python 脚本会播放一段《おてんば恋娘》。
