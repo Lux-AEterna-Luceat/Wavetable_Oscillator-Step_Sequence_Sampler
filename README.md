@@ -1,6 +1,5 @@
 # Wavetable Oscillator &amp; Step Sequence Sampler
 
-
 ## Wavetable Oscillator
 
 ### wtOsc 模块： （ Wavetable Oscillator ）
@@ -67,7 +66,6 @@ sSSampler.playKeys('Kick', 'Snare') #: 这个时候同时播放 'Kick' 和 'Snar
 3. **releaseKeys() 函数：**
 
 - 此时停止播放所有采样。
-
 
 ## 内置的歌曲：
 
