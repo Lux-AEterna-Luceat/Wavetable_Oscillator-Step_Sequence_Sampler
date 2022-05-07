@@ -1,5 +1,13 @@
 # Wavetable Oscillator &amp; Step Sequence Sampler
 
+**需要用到的库：**
+
+> pyaudio numpy pygame
+
+``` bash
+pip install pyaudio numpy pygame
+```
+
 ## Wavetable Oscillator
 
 ### wtOsc 模块： (Wavetable Oscillator)
