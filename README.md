@@ -18,9 +18,9 @@ pip install pyaudio numpy pygame
 
 **初始化：*在使用该模块前必须初始化***
 
-- sample 是你想要读入的存储一个周期的 wav 文件的路径；
-- tempo(bpm) 是你设置的曲速，未来计算步长会有所帮助；
-- division 是一个数组，以 \[beats, steps\] 的形式输入，未来计算步长会有所帮助。
+- sample 是需要读入的存储一个周期的 wav 文件的路径；
+- tempo(bpm) 是曲速，以 bpm 为单位；
+- division 是一个数组，以 \[beats, steps\] 的形式输入。
 
 **Example:**
 ``` python
