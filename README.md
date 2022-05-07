@@ -4,6 +4,8 @@
 
 > pyaudio numpy pygame
 
+**安装：**
+
 ``` bash
 pip install pyaudio numpy pygame
 ```
